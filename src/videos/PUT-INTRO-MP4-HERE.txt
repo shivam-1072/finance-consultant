@@ -1,0 +1,4 @@
+Put the client's vertical (9:16) intro video here as intro.mp4,
+e.g. a 30-60 sec phone recording. The website plays it automatically in the
+phone frame when no YouTube videoUrl is set in src/js/site-config.js.
+(Upload box on the page is a local preview only and does not save files.)
