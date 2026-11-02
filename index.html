@@ -40,7 +40,7 @@
   <div class="scrim" id="drawerScrim"></div>
   <aside class="panel" role="dialog" aria-label="Menu">
     <div class="drawer-head">
-      <div><b id="consultantNameEl2">Rahul Verma</b><br><small style="color:var(--muted)">LIC Consultant · Mumbai</small></div>
+      <div><b id="consultantNameEl2">Rahul Verma</b><br><small style="color:var(--muted)">Finance Consultant · Mumbai</small></div>
       <button class="drawer-close" id="drawerClose" aria-label="Close menu">✕</button>
     </div>
     <nav>
@@ -63,9 +63,9 @@
 <section class="hero" id="home" style="padding-top:44px">
   <div class="wrap hero-grid">
     <div>
-      <span class="eyebrow"><span class="dot"></span> IRDAI-Licensed · Claim support till money arrives</span>
-      <h1>Your family's <span class="grad-gold">LIC protection</span>, handled like family.</h1>
-      <p class="lead">Term cover, child education, guaranteed pension and <b>hassle-free claims</b> — one trusted consultant from first premium to final payout. No spam, no pushy sales. Just the right LIC plan for your age and budget.</p>
+      <span class="eyebrow"><span class="dot"></span> IRDAI-Licensed · Honest finance advice, no pushy sales</span>
+      <h1>Smart finance for your family — insurance, health &amp; beyond.</h1>
+      <p class="lead">LIC, health insurance, term cover and retirement — reviewed honestly by one consultant. No jargon, no pushy sales. Just the right plan for your age, budget and goals. Free 15-min review, from first premium to final payout.</p>
       <div class="hero-badges">
         <span class="pill">✅ <b>15+ yrs</b>&nbsp;LIC only</span>
         <span class="pill">✅ <b>98.5%+</b>&nbsp;LIC claim record</span>
@@ -73,18 +73,14 @@
       </div>
       <div class="hero-cta">
         <a class="btn btn-wa" data-wa-link target="_blank" rel="noopener" href="#">💬 Get FREE Review on WhatsApp</a>
-        <a class="btn btn-navy" href="#calculator">Check My Cover Gap →</a>
-      </div>
-      <div class="hero-proof">
-        <div class="avatars"><span style="background:#0b2a5b">P</span><span style="background:#0e9f6e">S</span><span style="background:#b8860b">F</span><span style="background:#7c3aed">A</span><span style="background:#0e7490">+</span></div>
-        <div><span class="stars">★★★★★</span> <b>4.9/5</b> from 300+ Google reviews<br><small style="color:var(--muted)">1200+ families guided · 240+ claims settled</small></div>
+        <a class="btn btn-navy" href="#contact">Book a Call →</a>
       </div>
     </div>
     <div class="hero-visual">
       <div class="advisor-card">
         <div class="advisor-top">
-          <div class="advisor-photo">RV</div>
-          <div><h3 id="consultantNameEl3">Rahul Verma</h3><p>LIC Consultant &amp; Financial Protection Advisor<br><small>IRDAI Lic. · Mumbai · Hindi / English / Marathi</small></p></div>
+          <div class="advisor-photo">MS</div>
+          <div>          <h3 id="consultantNameEl3">Rahul Verma</h3><p>Finance Consultant · LIC &amp; Health Insurance<br><small>IRDAI Lic. · Mumbai · Hindi / English / Marathi</small></p></div>
         </div>
         <div class="advisor-body">
           <div class="mini-row">
@@ -99,8 +95,6 @@
           <small style="color:var(--muted)">📍 Home visits in Ghatkopar / Chembur / Thane · Video call anywhere in India</small>
         </div>
       </div>
-      <div class="float-card fc1"><span class="tick">✓</span> Maturity ₹4.2L credited · Dadar</div>
-      <div class="float-card fc2"><span class="tick">✓</span> ₹1 Cr term approved · age 34</div>
     </div>
   </div>
 </section>
@@ -131,7 +125,7 @@
     <div class="about-grid">
       <div class="about-card reveal">
         <h3>Namaste, I'm <span id="consultantNameEl4">Rahul Verma</span> 🙏</h3>
-        <p style="margin:0">I do only one thing — <b style="color:#ffe9a8">LIC, properly.</b> Right cover calculation, clean paperwork, yearly reviews, and standing with your nominee during claims. My income is LIC commission — my advice fee to you is zero.</p>
+        <p style="margin:0">I help families get the right insurance — LIC, health and term — without the pushy sales pitch. Right cover calculation, clean paperwork, yearly reviews, and standing with your nominee during claims. My income is commission — my advice fee to you is zero.</p>
         <ul class="check-list">
           <li><i>✓</i> Every plan compared on paper — bonus, liquidity, lock-in, tax</li>
           <li><i>✓</i> Premium reminders so no policy ever lapses silently</li>
@@ -160,46 +154,6 @@
   </div>
 </section>
 
-<!-- ================= CALCULATOR ================= -->
-<section id="calculator" style="padding-top:20px">
-  <div class="wrap">
-    <div class="calc reveal">
-      <div class="calc-grid">
-        <div>
-          <span class="eyebrow" style="background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.25);color:#ffe9a8">⚡ The 2-minute hook everyone tries</span>
-          <h2 style="margin:12px 0 8px">Are you <span style="color:var(--gold-2)">under-insured</span> without knowing it?</h2>
-          <p>90% of Indian families have less than half the cover they need. Move the sliders — see your <b style="color:#fff">Suraksha Score</b> live, then get the exact LIC fix on WhatsApp.</p>
-          <div class="calc-card">
-            <label>Your age <span class="range-val" id="ageV">32 yrs</span></label>
-            <input type="range" id="inAge" min="18" max="60" value="32">
-            <label>Yearly family income <span class="range-val" id="incV">₹12L/yr</span></label>
-            <input type="range" id="inIncome" min="2" max="100" value="12">
-            <label>Outstanding loans <span class="range-val" id="loanV">₹20L</span></label>
-            <input type="range" id="inLoan" min="0" max="200" value="20">
-            <label>Existing life cover, if any (Sum Assured in ₹ lakh)</label>
-            <select id="inHave"><option value="0">No cover yet</option><option value="10">₹10 Lakh</option><option value="25">₹25 Lakh</option><option value="50">₹50 Lakh</option><option value="100">₹1 Crore</option></select>
-            <label>Who depends on you?</label>
-            <select id="inDep"><option>Spouse + kids</option><option>Spouse only</option><option>Parents + spouse + kids</option><option>Parents only</option></select>
-          </div>
-        </div>
-        <div class="calc-result">
-          <small style="font-weight:800;letter-spacing:.1em;color:var(--muted)">YOUR SURAKSHA SCORE</small>
-          <div class="score"><span id="scoreEl">18</span><small style="font-size:22px">/100</small></div>
-          <div class="bar"><i id="scoreBar"></i></div>
-          <p id="scoreMsg" style="color:#33475f;font-weight:700">Move the sliders to see your result.</p>
-          <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin:14px 0">
-            <div style="background:#f4f7ff;border-radius:12px;padding:10px"><small style="color:var(--muted)">YOU NEED</small><br><b id="needEl">₹0</b></div>
-            <div style="background:#fff6dd;border-radius:12px;padding:10px"><small style="color:var(--muted)">YOU HAVE</small><br><b id="haveEl">₹0</b></div>
-            <div style="background:#ffe1e1;border-radius:12px;padding:10px"><small style="color:var(--muted)">GAP</small><br><b id="gapEl" style="color:#a12020">₹0</b></div>
-          </div>
-          <a class="btn btn-wa" id="calcWa" target="_blank" rel="noopener" href="#" style="width:100%">Send My Score → Get FREE LIC Fix</a>
-          <small style="display:block;margin-top:8px;color:var(--muted)">Takes 15 min · No spam · Reply within hours</small>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ================= VIDEO ================= -->
 <section id="video">
   <div class="wrap">
@@ -211,17 +165,11 @@
         <div class="phone"><div class="phone-screen">
           <div id="ytWrap" style="position:absolute;inset:0"></div>
           <video id="uploadedVideo" hidden controls playsinline style="position:absolute;inset:0"></video>
-          <div class="phone-empty" id="phoneEmpty"><div class="play">▶</div><b id="videoTitleEl">How I help you pick the RIGHT LIC policy</b><br><small style="opacity:.75">Client video drops here — tap Upload to preview</small></div>
+          <div class="phone-empty" id="phoneEmpty"><div class="play">▶</div><b id="videoTitleEl">Watch: How I help you pick the RIGHT insurance policy</b></div>
         </div></div>
       </div>
       <div class="video-side">
-        <div class="upload-box reveal">
-          <b>🎬 For the consultant — add your short video in 30 seconds</b>
-          <p style="margin:6px 0;color:var(--muted);font-size:14px">Record a 30–60 sec vertical video on your phone (face camera): who you are, one best policy this month, and “WhatsApp me for a free review”. Then preview it here:</p>
-          <input type="file" id="videoUpload" accept="video/*">
-          <p style="font-size:13px;color:var(--muted)">Permanent options: save file as <code>src/videos/intro.mp4</code> OR paste a YouTube Shorts link in <code>main.pjs → videoUrl</code>. Your developer will wire it permanently.</p>
-        </div>
-        <div class="owner-note reveal">💡 <b>Video script that converts</b> (read this on camera): “Namaste, main hoon <b>Rahul</b>, LIC Consultant Mumbai se. Har hafte main ek best LIC plan 60 second me samjhata hoon. Is hafte ka plan — Jeevan Anand — niche WhatsApp button dabao, main aapki age par exact premium bhej dunga. Free review, koi pressure nahi.”</div>
+        <div class="owner-note reveal">💡 <b>Video script that converts</b> (read this on camera): “Namaste, main hoon <b>Mahima Sharma</b>, Finance Consultant se. Har hafte main ek best insurance plan 60 second me samjhati hoon. Is hafte ka plan — niche WhatsApp button dabao, main aapki age par exact premium bhej dungi. Free review, koi pressure nahi.”</div>
         <div class="steps">
           <div class="step reveal"><b><span class="n">1</span> Watch</b><p>60-sec honest explainer. No jargon.</p></div>
           <div class="step reveal"><b><span class="n">2</span> WhatsApp</b><p>Send age + goal. Get premium chart.</p></div>
@@ -249,8 +197,8 @@
 <!-- ================= TESTIMONIALS ================= -->
 <section id="reviews">
   <div class="wrap center">
-    <span class="eyebrow reveal"><span class="dot"></span> 300+ five-star reviews</span>
-    <h2 class="sec-title reveal">What families <span class="grad-gold">say about us</span></h2>
+    <span class="eyebrow reveal"><span class="dot"></span> What families say</span>
+    <h2 class="sec-title reveal">Real reviews <span class="grad-gold">from real families</span></h2>
     <div class="slider reveal"><div class="slides" id="slides"></div></div>
     <div class="slider-btns"><button class="sbtn" id="prevT" aria-label="Previous">‹</button><button class="sbtn" id="nextT" aria-label="Next">›</button></div>
     <div class="dots" id="dots"></div>
@@ -271,7 +219,7 @@
 <!-- ================= CLAIM ================= -->
 <section id="claimhelp" style="padding-top:0">
   <div class="wrap"><div class="claim reveal">
-    <div><h2>Death or maturity claim? Don't run pillar to post.</h2><p>I give nominees a 1-page checklist, submit papers myself, and track the branch till money is credited. 240+ families helped — including policies NOT bought from me.</p></div>
+    <div><h2>Death or maturity claim? Don't run pillar to post.</h2><p>I give nominees a 1-page checklist, submit papers myself, and track the branch till money is credited. I help with policies even if they were not bought from me.</p></div>
     <div><a class="btn" data-wa-link data-wa-msg="URGENT: I need help with an LIC claim (maturity / death claim). Please guide me." target="_blank" rel="noopener" href="#" style="background:#fff;color:#067a53">Get Claim Help Now →</a></div>
   </div></div>
 </section>
@@ -307,7 +255,7 @@
 <footer>
   <div class="wrap">
     <div class="foot-grid">
-      <div><h4>🪔 <span id="footNameEl">Rahul Verma</span> · LIC Consultant</h4><p>Helping Mumbai families with honest LIC advice since 2010. Term, endowment, child plans, pensions — and claims that actually settle.</p></div>
+      <div><h4>🪔 <span id="footNameEl">Rahul Verma</span> · Finance Consultant</h4><p>Helping Mumbai families with honest insurance advice since 2010. LIC, health, term and pensions — and claims that actually settle.</p></div>
       <div><h4>Explore</h4><p><a href="#policies">Best LIC plans</a><br><a href="#calculator">Suraksha Check</a><br><a href="#reviews">Reviews</a><br><a href="#faq">FAQs</a></p></div>
       <div><h4>Contact</h4><p><a data-phone-link href="tel:+919876543210"><span data-phone-display>+91 98765 43210</span></a><br><a data-wa-link target="_blank" rel="noopener" href="#">WhatsApp now</a><br><span id="cityEl2">Mumbai</span></p></div>
     </div>
@@ -323,7 +271,9 @@
   <a data-wa-link target="_blank" rel="noopener" href="#" style="background:#1da851;color:#fff">💬 WhatsApp</a>
   <button data-open-modal="" style="background:var(--navy);color:#fff">★ Free Review</button>
 </div>
-<div class="toast" id="proofToast"><span class="t-av" id="proofAv">R</span><span><b id="proofHead" style="font-size:13px">Ramesh booked a review</b><br><small id="proofSub">22 min ago</small></span></div>
+
+<!-- Social-proof toast -->
+<div class="toast" id="proofToast"><span class="t-av" id="proofAv">M</span><span><b id="proofHead" style="font-size:13px"></b><br><small id="proofSub"></small></span></div>
 
 <!-- Review modal -->
 <div class="modal" id="reviewModal" role="dialog" aria-label="Book free review">

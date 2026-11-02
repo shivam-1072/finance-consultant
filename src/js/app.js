@@ -12,18 +12,18 @@
   // ---------- Data (from main.pjs, with safe fallbacks) ----------
   function safe(fn, fb) { try { const v = fn(); return v == null ? fb : v; } catch (e) { return fb; } }
   const SITE = (typeof window !== 'undefined' && window.SITE_CONFIG) || safe(() => root.siteData(), {
-    consultantName: "Rahul Verma",
-    designation: "LIC Consultant & Financial Protection Advisor",
+    consultantName: "Mahima Sharma",
+    designation: "Finance Consultant · LIC & Health Insurance Advisor",
     licenseLine: "IRDAI Licensed Insurance Advisor",
-    licenseNo: "IRDAI Lic. No. 12345678",
-    phoneDisplay: "+91 98765 43210", phoneTel: "+919876543210",
-    whatsapp: "919876543210", email: "hello.lic.consultant@gmail.com",
+    licenseNo: "IRDAI Lic. No. 23456789",
+    phoneDisplay: "+91 79001 00927", phoneTel: "+917900100927",
+    whatsapp: "917900100927", email: "mahima.sharma@finconsult.in",
     city: "Mumbai, Maharashtra",
     address: "Ghatkopar West, Mumbai 400086",
     hours: "Mon–Sat · 10:00 AM – 8:00 PM",
     experienceYears: 15,
-    whatsappMsg: "Namaste! I found your LIC website. I want a FREE 15-min policy review.",
-    videoUrl: "", videoTitle: "Watch: How I help you pick the RIGHT LIC policy in 2 minutes",
+    whatsappMsg: "Namaste! I found your finance website. I want a FREE 15-min review with Mahima Sharma.",
+    videoUrl: "", videoTitle: "Watch: How I help you pick the RIGHT insurance policy in 2 minutes",
     videoNote: "New video every week — best new policy, renewal reminders & claim tips."
   });
   const STATS = (typeof window !== 'undefined' && window.SITE_STATS) || safe(() => root.statsData(), []);
@@ -222,18 +222,20 @@
 
   // ---------- Social-proof toasts (the "can't-ignore" nudge) ----------
   const proofs = [
-    ["R", "Ramesh from Kurla booked a FREE review", "22 min ago · Term + Anand combo"],
-    ["S", "Sunita from Thane revived a lapsed policy", "1 hr ago · ₹0 extra penalty"],
-    ["A", "Arif from Andheri started Amritbaal for his daughter", "3 hrs ago · Child secured"],
-    ["M", "Meena from Dadar got maturity credited", "Yesterday · ₹4.2L in 9 days"]
+    ["R", "Ramesh from Kurla booked a FREE review", "22 min ago · Term + Health combo"],
+    ["S", "Sunita from Thane bought a new LIC policy", "1 hr ago · ₹1 Cr term cover"],
+    ["A", "Arif from Andheri started a child plan for his daughter", "3 hrs ago · Child secured"],
+    ["M", "Meena from Dadar got maturity credited", "Yesterday · ₹4.2L in 9 days"],
+    ["K", "Kavita from Ghatkopar revived a lapsed policy", "2 days ago · Zero penalty"]
   ];
   let pi = 0; const toast = $("#proofToast");
   setInterval(() => {
-    if (!toast || document.hidden) return;
+    if (!toast || document.hidden || proofs.length === 0) return;
     const [i, h, s] = proofs[pi++ % proofs.length];
     $("#proofAv").textContent = i; $("#proofHead").textContent = h; $("#proofSub").textContent = s;
     toast.classList.add("show"); setTimeout(() => toast.classList.remove("show"), 4200);
   }, 14000);
   setTimeout(() => toast && toast.classList.add("show"), 6000);
   setTimeout(() => toast && toast.classList.remove("show"), 10500);
+  // ---------- End ----------
 })();

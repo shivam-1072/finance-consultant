@@ -4,19 +4,19 @@
    No other file needs editing for text/content changes.
    ============================================================ */
 window.SITE_CONFIG = {
-  "consultantName": "Rahul Verma",
-  "designation": "LIC Consultant & Financial Protection Advisor",
+  "consultantName": "Mahima Sharma",
+  "designation": "Finance Consultant · LIC & Health Insurance Advisor",
   "licenseLine": "IRDAI Licensed Insurance Advisor",
-  "licenseNo": "IRDAI Lic. No. 12345678",
-  "phoneDisplay": "+91 98765 43210",
-  "phoneTel": "+919876543210",
-  "whatsapp": "919876543210",
-  "email": "hello.lic.consultant@gmail.com",
+  "licenseNo": "IRDAI Lic. No. 23456789",
+  "phoneDisplay": "+91 79001 00927",
+  "phoneTel": "+917900100927",
+  "whatsapp": "917900100927",
+  "email": "mahima.sharma@finconsult.in",
   "city": "Mumbai, Maharashtra",
   "address": "Shop 12, Ground Floor, Shree Heights, LBS Marg, Ghatkopar West, Mumbai 400086",
   "hours": "Mon–Sat · 10:00 AM – 8:00 PM",
   "experienceYears": 15,
-  "whatsappMsg": "Namaste! I found your LIC website. I want a FREE 15-min policy review.",
+  "whatsappMsg": "Namaste! I found your finance website. I want a FREE 15-min review with Mahima Sharma.",
   "videoUrl": "",
   "videoTitle": "Watch: How I help you pick the RIGHT LIC policy in 2 minutes",
   "videoNote": "New video every week — best new policy, renewal reminders & claim tips."
@@ -139,7 +139,7 @@ window.SITE_POLICIES = [
 window.SITE_FAQS = [
   {
     "q": "Will my family REALLY get the claim? What is LIC's claim record?",
-    "a": "Yes — this is exactly why most Indians trust LIC. LIC's claim settlement ratio has consistently been ~98.5%+ (one of the highest in India). And as your consultant, I personally handle the paperwork, follow up with the branch, and stay with your nominee till the money is credited. 240+ claims assisted so far."
+    "a": "Yes — this is exactly why most Indians trust LIC. LIC's claim settlement ratio has consistently been high (one of the highest in India). And as your consultant, I personally handle the paperwork, follow up with the branch, and stay with your nominee till the money is credited.",
   },
   {
     "q": "What happens if I miss a premium? Will my policy lapse?",
@@ -175,43 +175,36 @@ window.SITE_TESTIMONIALS = [
   {
     "name": "Priya Deshmukh",
     "area": "Thane · Teacher",
-    "text": "My husband's maturity was stuck for 4 months. Rahul sir got it credited in 9 days and moved everything to NEFT. He never pushes — he explains.",
+    "text": "Mahima ma'am helped me get my husband's maturity credited in 9 days. She never pushes — she explains everything clearly.",
     "stars": 5,
     "initial": "P"
   },
   {
     "name": "Suresh Iyer",
     "area": "Chembur · Small business",
-    "text": "I had zero insurance at 38 with two kids. He calculated my gap (₹80L!) and split it smartly — term + small Anand. Premium fits my shop income.",
+    "text": "I had zero insurance at 38 with two kids. She calculated my gap and split it smartly — term + small plan. Premium fits my income.",
     "stars": 5,
     "initial": "S"
   },
   {
     "name": "Fatima Khan",
     "area": "Andheri · IT professional",
-    "text": "As a single mother, claim help for my father's policy meant everything. She treated us like family and settled it without us visiting LIC once.",
+    "text": "Claim help for my father's policy meant everything to us. She treated us like family and we never had to visit LIC once.",
     "stars": 5,
     "initial": "F"
   },
   {
     "name": "Amit & Neha Patil",
     "area": "Mulund · New parents",
-    "text": "Amritbaal for our daughter + revival of my lapsed Labh — both done on WhatsApp with doorstep pickup of documents. Super professional.",
+    "text": "Child plan for our daughter + revival of my lapsed policy — both done on WhatsApp with doorstep document pickup. Very professional.",
     "stars": 5,
     "initial": "A"
   },
   {
     "name": "Joseph D'Souza",
     "area": "Bandra · Retired bank staff",
-    "text": "Jeevan Shanti pension started exactly on time. He compared 3 annuity options on paper and showed why deferring 5 years gives 40% more pension.",
+    "text": "Pension plan started exactly on time. She compared 3 annuity options on paper and showed the math clearly.",
     "stars": 5,
     "initial": "J"
-  },
-  {
-    "name": "Kavita Shah",
-    "area": "Ghatkopar · Boutique owner",
-    "text": "Premium reminders, birthday wishes for my kids, and free review every Diwali. I've referred 11 relatives — that says everything.",
-    "stars": 5,
-    "initial": "K"
   }
 ];
